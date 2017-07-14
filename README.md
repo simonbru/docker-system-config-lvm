@@ -11,3 +11,7 @@ docker run -it --privileged \
   -e DISPLAY=$DISPLAY
   simonbru/system-config-lvm
 ```
+
+## Notes
+
+The partition tool *GParted* is also included in the docker image, as well as the CLI tools for many filesystems.
