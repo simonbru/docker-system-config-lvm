@@ -8,7 +8,7 @@ docker run -it --privileged \
   -v /tmp/.X11-unix/:/tmp/.X11-unix \
   -v $XAUTHORITY:$XAUTHORITY \
   -e XAUTHORITY=$XAUTHORITY \
-  -e DISPLAY=$DISPLAY
+  -e DISPLAY=$DISPLAY \
   simonbru/system-config-lvm
 ```
 
